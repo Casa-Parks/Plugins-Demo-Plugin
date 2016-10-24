@@ -1,11 +1,7 @@
-name: Demo Plugin
-description: A demo plugin.
-
 authors:
   - { name: "Connor S. Parks", email: "contact@connorvg.tv" }
 
 version: 1.0.0-dev
 
-entry:
-  load: vendor/autoload.php
-  start: bootstrap/start.php
+providers:
+  - CasaParks\PluginsDemoPlugin\Providers\DemoPluginServiceProvider
